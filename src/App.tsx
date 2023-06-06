@@ -21,8 +21,9 @@ function App() {
   }, [getRequests]);
 
   return (
-    <Container fluid className="h-screen bg-slate-500 m-0 " display="flex" justify="center" alignItems="center">
-      <div className="max-w-[600px] min-w-[400px] mt-40">
+    <Container fluid className="h-screen bg-slate-500 m-0 " display="flex" direction="column" justify="center" alignItems="center">
+      <Text size="x-large" color="white" weight="bold">Availability at Stony Indian Creek campsite on 8/11 and 8/12</Text>
+      <div className="max-w-[600px] min-w-[400px] mt-20">
         <Grid.Container>
           <Grid xs={6}>
             <Text color="white" weight="bold">
