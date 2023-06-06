@@ -26,7 +26,7 @@ function App() {
 
   return (
     <Container fluid className="h-screen bg-slate-500 m-0 min-w-full" display="flex" direction="column" alignItems="center">
-      <Text size="x-large" color="white" weight="bold" className="mt-20">Availability at Stony Indian Creek campsite on 8/11 and 8/12</Text>
+      <Text size="x-large" color="white" weight="bold" className="mt-20">Availability at Stoney Indian Lake campsite on 8/11 and 8/12</Text>
       <div className="max-w-[600px] min-w-[400px] mt-20">
         <Grid.Container>
           <Grid xs={6}>
