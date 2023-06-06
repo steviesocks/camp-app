@@ -8,7 +8,7 @@ function App() {
 
   const getRequests = useCallback(async () => {
     try {
-      const resp = await axios.get<ApiRequests[]>("http://localhost:3000/requests");
+      const resp = await axios.get<ApiRequests[]>("https://pink-tense-oyster.cyclic.app/requests");
       const sortedData = resp.data.sort((a, b) => b.dateTime - a.dateTime);
       setData(sortedData);
     } catch (error) {
@@ -19,8 +19,6 @@ function App() {
   useEffect(() => {
     getRequests();
   }, [getRequests]);
-
-  console.log("DATa", data[0]?.availability["2023-08-11"]);
 
   return (
     <Container fluid className="h-screen bg-slate-500 m-0 " display="flex" justify="center" alignItems="center">
