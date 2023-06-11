@@ -10,7 +10,7 @@ function App() {
   const getRequests = useCallback(async () => {
     try {
       setFetching(true);
-      const resp = await axios.get<{ [key: string]: ApiRequests[] }>("http://localhost:3000/requests");
+      const resp = await axios.get<{ [key: string]: ApiRequests[] }>("https://pink-tense-oyster.cyclic.app/requests");
       const sortedData: typeof data = {};
       Object.entries(resp.data).forEach((site) => {
         sortedData[site[0]] = site[1].sort((a, b) => b.dateTime - a.dateTime);
