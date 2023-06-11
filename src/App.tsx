@@ -29,7 +29,7 @@ function App() {
   }, [getRequests]);
 
   return (
-    <Container fluid className="min-h-screen bg-slate-500 m-0 min-w-full py-20 " display="flex" >
+    <Container fluid className="min-h-screen bg-slate-500 m-0 min-w-full pb-20 pt-4" display="flex" >
       <Grid.Container gap={8}>
         <Grid xs={6} justify="center" alignItems="center">
           <div className="max-w-[600px] min-w-[400px]">
@@ -66,7 +66,7 @@ function App() {
               </Grid>
             </Grid.Container>
             {!fetching ? (
-              <div className="max-h-[400px] overflow-y-auto bg-slate-50">
+              <div className="max-h-[200px] overflow-y-auto bg-slate-50">
                 <Grid.Container gap={2}>
                   {data["STO"].map((req) => (
                     <React.Fragment key={req.dateTime}>
@@ -123,7 +123,7 @@ function App() {
               </Grid>
             </Grid.Container>
             {!fetching ? (
-              <div className="max-h-[400px] overflow-y-auto bg-slate-50">
+              <div className="max-h-[200px] overflow-y-auto bg-slate-50">
                 <Grid.Container gap={2}>
                   {data["ELF"].map((req) => (
                     <React.Fragment key={req.dateTime}>
@@ -182,7 +182,7 @@ function App() {
               </Grid>
             </Grid.Container>
             {!fetching ? (
-              <div className="max-h-[400px] overflow-y-auto bg-slate-50">
+              <div className="max-h-[200px] overflow-y-auto bg-slate-50">
                 <Grid.Container gap={2}>
                   {data["ELH"].map((req) => (
                     <React.Fragment key={req.dateTime}>
@@ -234,7 +234,7 @@ function App() {
               </Grid>
             </Grid.Container>
             {!fetching ? (
-              <div className="max-h-[400px] overflow-y-auto bg-slate-50">
+              <div className="max-h-[200px] overflow-y-auto bg-slate-50">
                 <Grid.Container gap={2}>
                   {data["GAB"].map((req) => (
                     <React.Fragment key={req.dateTime}>
