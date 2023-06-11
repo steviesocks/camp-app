@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/camp-app/static/css/main.3e773e62.css",
-    "main.js": "/camp-app/static/js/main.e907ea0e.js",
+    "main.css": "/camp-app/static/css/main.81f2d458.css",
+    "main.js": "/camp-app/static/js/main.90b3978c.js",
     "static/js/787.c2aa3aff.chunk.js": "/camp-app/static/js/787.c2aa3aff.chunk.js",
     "index.html": "/camp-app/index.html",
-    "main.3e773e62.css.map": "/camp-app/static/css/main.3e773e62.css.map",
-    "main.e907ea0e.js.map": "/camp-app/static/js/main.e907ea0e.js.map",
+    "main.81f2d458.css.map": "/camp-app/static/css/main.81f2d458.css.map",
+    "main.90b3978c.js.map": "/camp-app/static/js/main.90b3978c.js.map",
     "787.c2aa3aff.chunk.js.map": "/camp-app/static/js/787.c2aa3aff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e773e62.css",
-    "static/js/main.e907ea0e.js"
+    "static/css/main.81f2d458.css",
+    "static/js/main.90b3978c.js"
   ]
 }
